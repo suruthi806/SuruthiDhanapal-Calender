@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800 font-sans p-6;
+}
+.calendar-card {
+  @apply bg-white rounded-2xl p-6 shadow-lg max-w-4xl mx-auto;
+}
+.calendar-header button {
+  @apply bg-blue-500 text-white px-3 py-1 rounded-md hover:bg-blue-600;
+}
+.month-label {
+  @apply text-lg font-semibold;
+}
+.weekday-row, .week-row {
+  @apply grid grid-cols-7 gap-1;
+}
+.weekday {
+  @apply text-xs text-gray-400 text-center py-1;
+}
+.day-cell {
+  @apply min-h-[100px] border border-gray-200 rounded-xl p-2 relative bg-white;
+}
+.day-cell.muted {
+  @apply opacity-40 bg-gray-50;
+}
+.date-number {
+  @apply font-semibold mb-1;
+}
+.date-number.today {
+  @apply bg-blue-500 text-white px-2 rounded-lg font-bold;
+}
+.event-pill {
+  @apply flex justify-between items-center text-xs bg-violet-100 border border-violet-300 rounded-md px-2 py-1;
+}
+.event-pill.conflict {
+  @apply border-red-400 bg-red-100;
+}
+.more-indicator {
+  @apply text-xs text-gray-600 mt-1;
+}
+.legend {
+  @apply flex gap-4 mt-3 text-sm text-gray-600;
+}
+.legend-box {
+  @apply w-4 h-4 rounded bg-violet-400 inline-block;
+}
+.conflict-box {
+  @apply bg-red-400;
+}
+.today-box {
+  @apply bg-blue-500;
+}

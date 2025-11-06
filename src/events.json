@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Team Standup",
+    "date": "2025-11-05",
+    "time": "10:00",
+    "duration": "30m"
+  },
+  {
+    "title": "Client Meeting",
+    "date": "2025-11-05",
+    "time": "10:00",
+    "duration": "1h"
+  },
+  {
+    "title": "Lunch with Priya",
+    "date": "2025-11-07",
+    "time": "13:00",
+    "duration": "1h"
+  },
+  {
+    "title": "Project Deadline",
+    "date": "2025-11-15",
+    "time": "23:59",
+    "duration": "0m"
+  },
+  {
+    "title": "Gym",
+    "date": "2025-11-05",
+    "time": "18:00",
+    "duration": "1h"
+  },
+  {
+    "title": "Interview Prep",
+    "date": "2025-11-20",
+    "time": "09:00",
+    "duration": "2h"
+  },
+  {
+    "title": "Coffee with Mentor",
+    "date": "2025-11-20",
+    "time": "09:00",
+    "duration": "30m"
+  },
+  {
+    "title": "Birthday",
+    "date": "2025-11-25",
+    "time": "",
+    "duration": ""
+  }
+]
